@@ -13,6 +13,8 @@ $app = new \Slim\App([
     ]
 ]);
 
+$app->add(new \App\Middleware\Cors());
+
 //container stuff/attaching fractal to the it
 $container = $app->getContainer();
 $container['fractal'] = function () {
