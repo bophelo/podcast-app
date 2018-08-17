@@ -12,4 +12,10 @@ $app = new \Slim\App([
     ]
 ]);
 
+//container stuff/attaching fractal to the it
+$container = $app->getContainer();
+$container['fractal'] = function () {
+    return new \League\Fractal\Manager();
+};
+
 require_once __DIR__ . '/../routes/api.php';
