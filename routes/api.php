@@ -1,8 +1,6 @@
 <?php
 
-use App\Models\Podcast;
+use App\Controllers\PodcastsController;
 
-$app->get('/podcasts', function ($request, $response) {
-    $podcasts = Podcast::get();
-    return $response->withJson($podcasts);
-});
+$app->get('/podcasts', PodcastsController::class . ':index');
+$app->get('/podcasts/{id}', PodcastsController::class . ':show');
