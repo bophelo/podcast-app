@@ -106,7 +106,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.6.33",
+            "version": "v5.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -150,7 +150,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.6.33",
+            "version": "v5.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -194,16 +194,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v5.6.33",
+            "version": "v5.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "5e89ec20a3589ae87fe4c75d809cfa543905601b"
+                "reference": "741a80e84cc68739d8995bd5cf16586b485974d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/5e89ec20a3589ae87fe4c75d809cfa543905601b",
-                "reference": "5e89ec20a3589ae87fe4c75d809cfa543905601b",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/741a80e84cc68739d8995bd5cf16586b485974d0",
+                "reference": "741a80e84cc68739d8995bd5cf16586b485974d0",
                 "shasum": ""
             },
             "require": {
@@ -249,11 +249,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2018-08-08T05:36:52+00:00"
+            "time": "2018-08-21T13:34:21+00:00"
         },
         {
             "name": "illuminate/pagination",
-            "version": "v5.6.33",
+            "version": "v5.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pagination.git",
@@ -297,16 +297,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.6.33",
+            "version": "v5.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "0561e4e48797fbaeafeec0054b14605b08722a5a"
+                "reference": "4eb12aa00bbf2d5e73c355ad404a9d0679879094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/0561e4e48797fbaeafeec0054b14605b08722a5a",
-                "reference": "0561e4e48797fbaeafeec0054b14605b08722a5a",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/4eb12aa00bbf2d5e73c355ad404a9d0679879094",
+                "reference": "4eb12aa00bbf2d5e73c355ad404a9d0679879094",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-08-06T19:58:11+00:00"
+            "time": "2018-08-15T21:02:31+00:00"
         },
         {
             "name": "league/fractal",
