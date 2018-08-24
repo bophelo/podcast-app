@@ -13,7 +13,7 @@ class PodcastsController extends BaseController
 {
     public function index($request, $response)
     {
-        $podcasts = Podcast::latest()->paginate(1);
+        $podcasts = Podcast::latest()->paginate(2);
         $transformer = (new Collection($podcasts->getCollection(), new PodcastTransformer))->setPaginator(new IlluminatePaginatorAdapter($podcasts));
         return $response->withJson($this->container->fractal->createData($transformer)->toArray());
     }
